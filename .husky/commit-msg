@@ -1,0 +1,2 @@
+# 使用 commitlint 检查提交信息格式
+npx --no -- commitlint --edit $1 

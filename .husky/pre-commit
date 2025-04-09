@@ -1,0 +1,4 @@
+# 使用 eslint 检查代码
+npm run lint
+# 使用 prettier 格式化代码
+npm run prettier

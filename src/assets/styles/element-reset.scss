@@ -1,0 +1,73 @@
+// Element Plus布局容器样式重置
+
+// 容器
+.el-container {
+  height: 100%;
+  margin: 0; // 移除可能的外边距
+}
+
+// 头部
+.el-header {
+  --el-header-padding: 0; // 自定义内边距
+}
+
+// // 侧边栏
+// .el-aside {
+//   background-color: #304156; // 深色侧边栏
+//   color: #fff;
+//   overflow: hidden; // 防止内容溢出
+//   transition: width 0.3s; // 添加宽度变化的过渡效果
+//   box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35); // 添加阴影
+
+//   // 可折叠侧边栏的宽度
+//   &.is-collapsed {
+//     width: 64px !important; // 折叠时的宽度
+//   }
+// }
+
+// // 主要内容区
+.el-main {
+  --el-main-padding: 0;
+}
+
+// // 页脚
+// .el-footer {
+//   padding: 15px 20px; // 自定义内边距
+//   background-color: #fff; // 白色背景
+//   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); // 顶部阴影
+//   text-align: center; // 居中文本
+// }
+
+// // 菜单样式调整
+// .el-menu {
+//   border-right: none; // 移除右侧边框
+
+//   // 菜单项
+//   .el-menu-item {
+//     &.is-active {
+//       background-color: #1890ff !important; // 活动项背景色
+//     }
+
+//     &:hover {
+//       background-color: #263445 !important; // 悬停背景色
+//     }
+//   }
+// }
+
+// // 响应式调整
+// @media (max-width: 768px) {
+//   .el-aside {
+//     position: absolute;
+//     height: 100%;
+//     z-index: 1001;
+//     transform: translateX(-100%);
+
+//     &.is-open {
+//       transform: translateX(0);
+//     }
+//   }
+
+//   .el-main {
+//     padding: 10px;
+//   }
+// }
